@@ -24,11 +24,11 @@ def data(number):
 @app.route('/users/<int:user_id>', methods=["GET"])
 def renderData(user_id):
 
-    return render_template("../templates/index.html", user_id=user_id)
+    return render_template("index.html", user_id=user_id)
 # comments
 
 
 @app.route("/", methods=["GET"])
 def home():
 
-    return render_template("../templates/home.html")
+    return render_template("home.html")
