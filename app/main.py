@@ -7,8 +7,6 @@ from collections import OrderedDict
 from matplotlib import use
 from requests import request
 
-from sklearn.exceptions import DataDimensionalityWarning
-
 app = Flask(__name__)
 
 
