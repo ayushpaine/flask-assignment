@@ -4,7 +4,6 @@ import json
 from flask import Flask, render_template
 from flask import jsonify
 from collections import OrderedDict
-from matplotlib import use
 from requests import request
 
 app = Flask(__name__)
